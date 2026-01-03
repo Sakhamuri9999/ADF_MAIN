@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "LearningSalesforceADF"
+		},
+		"LINK_Salesforce_clientSecret": {
+			"value": ""
+		},
+		"LINK_Storage_accountKey": {
+			"value": ""
+		},
+		"LINK_Salesforce_properties_typeProperties_environmentUrl": {
+			"value": "https://axis-d-dev-ed.develop.my.salesforce.com"
+		},
+		"LINK_Salesforce_properties_typeProperties_clientId": {
+			"value": "3MVG9WVXk15qiz1ItbQmEBQYQ1McY1We90QwN6iu1ygA0V6DIBByvZwZSrbYSdxssi_Mx8gJp3pBUXNAvjuiE"
+		},
+		"LINK_Storage_properties_typeProperties_url": {
+			"value": "https://salesfocelearningstorage.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
