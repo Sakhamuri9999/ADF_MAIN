@@ -6,7 +6,7 @@
 		"pipelines": [
 			{
 				"pipelineReference": {
-					"referenceName": "PL_Salesforce",
+					"referenceName": "PL_Salesforce_Account",
 					"type": "PipelineReference"
 				}
 			}
