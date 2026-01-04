@@ -1,0 +1,185 @@
+{
+	"name": "DelimitedText2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LINK_Storage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Cases.csv",
+				"folderPath": "Raw_DataFile",
+				"fileSystem": "salesforce"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Id",
+				"type": "String"
+			},
+			{
+				"name": "IsDeleted",
+				"type": "String"
+			},
+			{
+				"name": "MasterRecordId",
+				"type": "String"
+			},
+			{
+				"name": "CaseNumber",
+				"type": "String"
+			},
+			{
+				"name": "ContactId",
+				"type": "String"
+			},
+			{
+				"name": "AccountId",
+				"type": "String"
+			},
+			{
+				"name": "AssetId",
+				"type": "String"
+			},
+			{
+				"name": "SourceId",
+				"type": "String"
+			},
+			{
+				"name": "ParentId",
+				"type": "String"
+			},
+			{
+				"name": "SuppliedName",
+				"type": "String"
+			},
+			{
+				"name": "SuppliedEmail",
+				"type": "String"
+			},
+			{
+				"name": "SuppliedPhone",
+				"type": "String"
+			},
+			{
+				"name": "SuppliedCompany",
+				"type": "String"
+			},
+			{
+				"name": "Type",
+				"type": "String"
+			},
+			{
+				"name": "Status",
+				"type": "String"
+			},
+			{
+				"name": "Reason",
+				"type": "String"
+			},
+			{
+				"name": "Origin",
+				"type": "String"
+			},
+			{
+				"name": "Subject",
+				"type": "String"
+			},
+			{
+				"name": "Priority",
+				"type": "String"
+			},
+			{
+				"name": "Description",
+				"type": "String"
+			},
+			{
+				"name": "IsClosed",
+				"type": "String"
+			},
+			{
+				"name": "ClosedDate",
+				"type": "String"
+			},
+			{
+				"name": "IsEscalated",
+				"type": "String"
+			},
+			{
+				"name": "OwnerId",
+				"type": "String"
+			},
+			{
+				"name": "CreatedDate",
+				"type": "String"
+			},
+			{
+				"name": "CreatedById",
+				"type": "String"
+			},
+			{
+				"name": "LastModifiedDate",
+				"type": "String"
+			},
+			{
+				"name": "LastModifiedById",
+				"type": "String"
+			},
+			{
+				"name": "SystemModstamp",
+				"type": "String"
+			},
+			{
+				"name": "ContactPhone",
+				"type": "String"
+			},
+			{
+				"name": "ContactMobile",
+				"type": "String"
+			},
+			{
+				"name": "ContactEmail",
+				"type": "String"
+			},
+			{
+				"name": "ContactFax",
+				"type": "String"
+			},
+			{
+				"name": "Comments",
+				"type": "String"
+			},
+			{
+				"name": "LastViewedDate",
+				"type": "String"
+			},
+			{
+				"name": "LastReferencedDate",
+				"type": "String"
+			},
+			{
+				"name": "EngineeringReqNumber__c",
+				"type": "String"
+			},
+			{
+				"name": "SLAViolation__c",
+				"type": "String"
+			},
+			{
+				"name": "Product__c",
+				"type": "String"
+			},
+			{
+				"name": "PotentialLiability__c",
+				"type": "String"
+			}
+		]
+	}
+}
