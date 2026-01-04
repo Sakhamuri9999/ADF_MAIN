@@ -1,0 +1,15 @@
+{
+	"name": "Contact",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LINK_Salesforce",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SalesforceV2Object",
+		"schema": [],
+		"typeProperties": {
+			"objectApiName": "Contact"
+		}
+	}
+}
